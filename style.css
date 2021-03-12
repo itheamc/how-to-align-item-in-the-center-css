@@ -48,7 +48,7 @@ body {
 
 /* ___________________Third solution___________________ */
 
-.main-div {
+/* .main-div {
     width: 400px;
     height: 200px;
     display: flex;
@@ -61,5 +61,24 @@ body {
 .child-div {
     width: 200px;
     height: 100px;
+    background-color: yellow;
+}  */
+
+
+/*___________________Final Solution_____________________*/
+
+.main-div {
+    width: 400px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.child-div {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: yellow;
 } 
