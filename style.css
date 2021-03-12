@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ___________________First solution___________________ */
+
+
+/* .main-div {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;   
+}
+
+.child-div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    margin: auto;           
+} */
+
+/* ___________________Second solution___________________ */
+
+/* .main-div {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    background-color: blueviolet;
+    align-items: center;       
+    justify-content: center;
+}
+
+.child-div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}  */
+
+/* ___________________Third solution___________________ */
+
+.main-div {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: blueviolet;
+}
+
+.child-div {
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+} 
